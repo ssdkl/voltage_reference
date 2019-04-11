@@ -48,7 +48,7 @@ def record_cal_values(inst, file_handle):
 
 def main():
     dmm1 = setup_dmm(22)
-    dmm2 = setup_dmm(23)
+    dmm2 = setup_dmm(24)
 
     file_handle1 = open("cal_testing_22.csv", mode='a', buffering=1)
     file_handle2 = open("cal_testing_23.csv", mode='a', buffering=1)
